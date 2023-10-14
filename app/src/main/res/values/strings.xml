@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OLX Clone</string>
+
+    <string name="email_text">Email</string>
+    <string name="senha_text">Senha</string>
+    <string name="nome_text">Nome</string>
+    <string name="digite_email">Digite seu email</string>
+    <string name="digite_senha">Digite sua senha</string>
+    <string name="digite_nome">Digite seu nome</string>
+
+    <!-- activity de login -->
+    <string name="bemvindo_loginscreen">Bem Vindo</string>
+    <string name="facalogin_loginscreen">Faça login em sua conta</string>
+    <string name="naopossuiconta_loginscreen">Não possui uma conta? Cadastre-se</string>
+    <string name="entrar_loginscreen">Entrar</string>
+
+    <!-- activity de cadastro -->
+    <string name="cadastre_signinscreen">Cadastre-se</string>
+    <string name="registrar_signinscreen">Registrar</string>
+
+    <!-- main activity -->
+    <string name="nome_usuario">Nome usuario</string>
+
+    <!-- menu -->
+    <string name="menu_sair">Sair</string>
+</resources>
