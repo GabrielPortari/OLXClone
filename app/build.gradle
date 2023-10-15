@@ -45,4 +45,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:22.1.1'
     implementation 'com.google.firebase:firebase-storage:20.2.1'
     implementation 'com.firebaseui:firebase-ui-storage:8.0.2'
+
+    //implementações de mascara
+    implementation 'com.github.santalu:maskara:1.0.0'
+    implementation 'com.github.BlacKCaT27:CurrencyEditText:2.0.2'
 }

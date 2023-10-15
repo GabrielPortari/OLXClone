@@ -19,8 +19,60 @@
     <string name="registrar_signinscreen">Registrar</string>
 
     <!-- main activity -->
-    <string name="nome_usuario">Nome usuario</string>
-
+    <string name="adicionar_anuncio">Adicionar anúncio</string>
+    <!-- adicionar anuncio activity -->
+    <string name="hint_titulo">Título</string>
+    <string name="hint_valor">Valor</string>
+    <string name="hint_descricao">Descrição</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="button_cadastrar">Cadastrar anúncio</string>
     <!-- menu -->
+    <string name="menu_login">Fazer login</string>
     <string name="menu_sair">Sair</string>
+    <string name="menu_anuncios">Meus anúncios</string>
+
+    <!-- Categorias spinner -->
+    <string-array name="categoria">
+        <item>Automóveis</item>
+        <item>Imóveis</item>
+        <item>Eletronicos</item>
+        <item>Moda</item>
+        <item>Esportes</item>
+        <item>Música</item>
+        <item>Infantil</item>
+        <item>Agro</item>
+        <item>Outros</item>
+    </string-array>
+
+    <!-- estados spinner -->
+    <string-array name="estados">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MG</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>PR</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
+    </string-array>
+
 </resources>

@@ -54,7 +54,6 @@ public class LoginActivity extends AppCompatActivity {private TextInputEditText 
 
     private void configuracoesIniciais(){
         verificarUsuarioLogado();
-
         editEmail = findViewById(R.id.textInputEmail_loginScreen);
         editSenha = findViewById(R.id.textInputSenha_loginScreen);
         textCadastro = findViewById(R.id.textCadastro_loginScreen);
@@ -98,7 +97,6 @@ public class LoginActivity extends AppCompatActivity {private TextInputEditText 
                         if(task.isSuccessful()){
                             //caso o login seja concluido, abre a main activity
                             abrirMainActivity();
-                            finish();
                         }else{
                             //caso contrario, retorna um erro
                             String exception;
@@ -131,6 +129,7 @@ public class LoginActivity extends AppCompatActivity {private TextInputEditText 
         firebaseAuth = ConfiguracaoFirebase.getFirebaseAuthReference();
         if(firebaseAuth.getCurrentUser() != null){
             abrirMainActivity();
+            finish();
         }
     }
 }
