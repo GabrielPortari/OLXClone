@@ -7,6 +7,9 @@
     <string name="digite_email">Digite seu email</string>
     <string name="digite_senha">Digite sua senha</string>
     <string name="digite_nome">Digite seu nome</string>
+    <string name="divider">|</string>
+    <string name="regiao">REGIÃO</string>
+    <string name="categoria">CATEGORIA</string>
 
     <!-- activity de login -->
     <string name="bemvindo_loginscreen">Bem Vindo</string>
@@ -18,14 +21,18 @@
     <string name="cadastre_signinscreen">Cadastre-se</string>
     <string name="registrar_signinscreen">Registrar</string>
 
+    <!-- visualisar anuncio -->
+    <string name="visualisar">Visualizar telefone</string>
     <!-- main activity -->
     <string name="adicionar_anuncio">Adicionar anúncio</string>
+
     <!-- adicionar anuncio activity -->
     <string name="hint_titulo">Título</string>
     <string name="hint_valor">Valor</string>
     <string name="hint_descricao">Descrição</string>
     <string name="hint_telefone">Telefone</string>
     <string name="button_cadastrar">Cadastrar anúncio</string>
+
     <!-- menu -->
     <string name="menu_login">Fazer login</string>
     <string name="menu_sair">Sair</string>

@@ -49,4 +49,12 @@ dependencies {
     //implementações de mascara
     implementation 'com.github.santalu:maskara:1.0.0'
     implementation 'com.github.BlacKCaT27:CurrencyEditText:2.0.2'
+
+    //implementação spots dialog
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+
+    //implementacao carousel view
+    implementation 'com.synnapps:carouselview:0.1.5'
+
+
 }
